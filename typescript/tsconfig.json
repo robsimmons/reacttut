@@ -9,7 +9,9 @@
         "jsx": "react",
 
         "strict": true,
-        "noImplicitReturns": true
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true
     },
     "include": ["./src/**/*.t*"]
 }
