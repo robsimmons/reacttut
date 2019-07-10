@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "start": "webpack-dev-server --watch",
+        "prettier": "prettier --write *.json src/**/*.js src/**/*.jsx src/**/*.ts src/**/*.tsx"
+    },
+    "prettier": {
+        "printWidth": 110,
+        "tabWidth": 4
+    }
+}
