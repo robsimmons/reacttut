@@ -1,7 +1,7 @@
 {
     "scripts": {
         "build": "babel src -d lib",
-        "watch": "webpack-dev-server --watch",
+        "start": "webpack-dev-server --watch",
         "prettier": "prettier --write *.json src/**/*.js src/**/*.jsx src/**/*.ts src/**/*.tsx"
     },
     "prettier": {

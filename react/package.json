@@ -1,7 +1,8 @@
 {
     "scripts": {
         "build": "tsc",
-        "watch": "webpack-dev-server --watch",
+        "watch": "tsc -w",
+        "start": "webpack-dev-server --watch",
         "prettier": "prettier --write *.json src/**/*.js src/**/*.jsx src/**/*.ts src/**/*.tsx"
     },
     "prettier": {
